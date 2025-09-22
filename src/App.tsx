@@ -70,7 +70,7 @@ function App() {
           >
             <TfiMenuAlt />
           </button>
-      <div className='flex cursor-default items-center justify-between md:w-[15%] w-[25%] '>
+      <div className='flex cursor-default items-center justify-between md:w-[10%] w-[25%] '>
         <span > راضیه غفوری  </span> 
         <LiaLaptopCodeSolid  className='text-[50px]'/>
         {isMenuOpen && (
