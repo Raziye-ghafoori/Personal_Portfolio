@@ -70,7 +70,7 @@ function App() {
           >
             <TfiMenuAlt />
           </button>
-      <div className='flex cursor-default items-center justify-between md:w-[15%] w-[25%] '>
+      <div className='flex cursor-default items-center justify-between md:w-[10%] w-[25%] '>
         <span > راضیه غفوری  </span> 
         <LiaLaptopCodeSolid  className='text-[50px]'/>
         {isMenuOpen && (
@@ -215,6 +215,8 @@ function App() {
       <Portfolio_card img='/public/img/Bio.png' imgAlt="عکس صفحه اطلاعات شرکت ها" text="صفحه اطلاعات تماس یک شرکت با قابلیت تغییر رنگ صفحه" lang='react , chakra UI , Css , HTML' link='https://github.com/Raziye-ghafoori/Bio_Hami_Team'></Portfolio_card>
       <Portfolio_card img='/public/img/calculator.png' imgAlt="عکس ماشین حساب"  text="ماشین حساب ساده" lang='react , js , tailwind , Css , HTML' link='https://github.com/Raziye-ghafoori/Calculator'></Portfolio_card>
       <Portfolio_card img='/public/img/digital_clock.png' imgAlt="عکس ساعت دیجیتال"  text="ساعت دیجیتال به همراه تقویم" lang='react , js , tailwind , Css , HTML' link='https://github.com/Raziye-ghafoori/Digital-clock'></Portfolio_card>
+      <Portfolio_card img='/public/img/weather.png' imgAlt="سایت نمایش آب و هوا"  text="نمایش آب و هوای یک شهر به همراه نمودار تغییرات آب و هوایی" lang='react , js , tailwind , Css , HTML' link='https://github.com/Raziye-ghafoori/Weather'></Portfolio_card>
+
     </div>
     </section>
     <div id='Contact'></div>

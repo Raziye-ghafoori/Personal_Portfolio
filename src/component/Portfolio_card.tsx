@@ -19,7 +19,7 @@ const Portfolio_card: React.FC<PortfolioCardProps> = ({ img, imgAlt, text, lang,
       />
       <span className='cursor-default mx-[20px]'>{text}</span>
       <span className='text-[#00000064] cursor-default m-[5px]'>{lang}</span>
-      <a href={link} className='flex hover:text-[#ffffff] text-[#00000064] items-center m-[20px]'>
+      <a href={link} target='_blank' className='flex hover:text-[#ffffff] text-[#00000064] items-center m-[20px]'>
         <IoIosArrowRoundForward />
         <span>توضیحات بیشتر</span>
       </a>
